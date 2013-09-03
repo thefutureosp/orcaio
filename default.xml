@@ -7,7 +7,15 @@
            
   <!-- Main remote for the Future ORCAIO project -->
   <remote  name="fu"
-           fetch="https://github.com/thefutureosp" />           
+           fetch="https://github.com/thefutureosp" />   
+           
+   <!-- Main remote for the slim roms 3rd party -->
+  <remote  name="slim"
+           fetch="https://github.com/SlimRoms" />  
+          
+   <!-- Main remote for romannurik 3rd party -->
+  <remote  name="roman"
+           fetch="https://github.com/romannurik" />            
 
   <!-- Main remote for Android -->
   <remote  name="aosp"
@@ -423,10 +431,10 @@
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="fu" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="fu" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts-1" remote="fu" />
-  <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="SlimRoms" revision="jb4.3" />
+  <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="jb4.3" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="fu" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms-1" remote="fu" />
-  <project path="packages/apps/MonthCalendarWidget" name="romannurik/Android-MonthCalendarWidget" remote="romannurik" revision="master" />
+  <project path="packages/apps/MonthCalendarWidget" name="Android-MonthCalendarWidget" remote="roman" revision="master" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="fu" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="fu" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings-1" remote="fu" revision="jb4.3" />
