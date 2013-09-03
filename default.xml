@@ -425,7 +425,7 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts-1" remote="fu" />
   <project path="packages/apps/DashClock" name="SlimRoms/packages_apps_DashClock" remote="github" revision="jb4.3" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="fu" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="fu" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-1" remote="fu" />
   <project path="packages/apps/MonthCalendarWidget" name="romannurik/Android-MonthCalendarWidget" remote="github" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="fu" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="fu" />
