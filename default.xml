@@ -52,7 +52,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="android_build" remote="fu" revision="jb4.3" >
+  <project path="build" name="android_build" remote="cm" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" groups="pdk" />
@@ -444,7 +444,9 @@
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="cr" revision="jb3" />
   <project path="packages/wallpapers/OrcaWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="orca" revision="orca" />
   <project path="system/core" name="android_system_core-1" remote="fu" />
-  <project path="vendor/orca" name="android_vendor_orcaio" remote="fu" revision="orca" />
+  <project path="vendor/orcaio" name="android_vendor_orcaio" remote="fu" revision="jb4.3" >
+     <copyfile src="tools/build-orca.sh" dest="build-orca.sh" />
+   </project>
 
   <!-- Device extras: legacy support -->
   <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" revision="cm-10.1" />
