@@ -444,7 +444,7 @@
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="cr" revision="jb3" />
   <project path="packages/wallpapers/OrcaWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="orca" revision="orca" />
   <project path="system/core" name="android_system_core-1" remote="fu" />
-  <project path="vendor/orcaio" name="android_vendor_orcaio" remote="fu" revision="jb4.3" >
+  <project path="vendor/orcaio" name="android_vendor_orcaio" remote="fu" revision="jb4.3ad" >
      <copyfile src="tools/build-orca.sh" dest="build-orca.sh" />
    </project>
 
