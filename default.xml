@@ -440,9 +440,9 @@
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="orca" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="orca" revision="jb4.3ad" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings-1" remote="orca" revision="jb4.3ad" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="orca" revision="jb4.3" />
-  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="fu" />
-  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="orca" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="orca" revision="jb4.3cm" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="orca" revision="jb4.3" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="orca" revision="jb4.3" />
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="cr" revision="jb3" />
   <project path="packages/wallpapers/OrcaWallpapers" name="packages_wallpapers_OrcaWallpapers_v2" remote="orca" revision="orca" />
   <project path="system/core" name="android_system_core-jb43" remote="orca" />
