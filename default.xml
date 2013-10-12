@@ -54,7 +54,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="android_build" remote="cm" groups="pdk" >
+  <project path="build" name="orca_android_build" remote="orca" revision="jb4.3" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="android_abi_cpp" remote="cm" groups="pdk" />
