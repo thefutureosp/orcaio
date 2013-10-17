@@ -433,7 +433,7 @@
 
   <!-- ORCA/ORCAIO -->
   <project path="android" name="orcaio" remote="fu" revision="jb4.3" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="orca" revision="jb4.3ad" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="orca" revision="jb4.3orca" />
   <project path="frameworks/native" name="android_frameworks_native-1" remote="orca" groups="pdk" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="orca" revision="jb4.3" />
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="orca" />
