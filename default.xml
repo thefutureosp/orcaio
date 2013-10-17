@@ -347,7 +347,7 @@
   <project path="packages/apps/Provision" name="android_packages_apps_Provision" remote="cm" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="cm" />
   <project path="packages/apps/SmartCardService" name="android_packages_apps_SmartCardService" remote="cm" />
-  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="cm" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="orca" />
   <project path="packages/apps/SpeechRecorder" name="android_packages_apps_SpeechRecorder" remote="cm" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="cm" />
   <project path="packages/apps/Tag" name="android_packages_apps_Tag" remote="cm" />
@@ -441,12 +441,12 @@
   <project path="packages/apps/DashClock" name="packages_apps_DashClock" remote="slim" revision="jb4.3" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="orca" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="fu" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms-1" remote="orca" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms-1" remote="orca" revision="jb4.3orca" />
   <project path="packages/apps/MonthCalendarWidget" name="Android-MonthCalendarWidget" remote="roman" revision="master" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="orca" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="orca" revision="jb4.3ad" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings-1" remote="orca" revision="jb4.3ad" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="orca" revision="jb4.3cm" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings-1" remote="orca" revision="jb4.3orca" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="orca" revision="orca" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="orca" revision="jb4.3" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="orca" revision="jb4.3" />
   <project path="packages/wallpapers/SunBeam" name="android_packages_wallpapers_SunBeam" remote="cr" revision="jb3" />
